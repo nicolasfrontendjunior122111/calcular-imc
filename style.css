@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#background-text {
+    background-color: gold;
+    padding: 50px;
+    margin: 50px auto;
+    border-radius: 22px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    width: 80%; /* Define uma largura para centralizar o conteúdo */
+}
+
+#header-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#black-line {
+    border: solid 2px black;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#text-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre os elementos */
+    margin-top: 20px;
+}
+
+#text-main label {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#text-main input {
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#calcular-input {
+    width: auto;
+    padding: 10px 40px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 30px;
+}
